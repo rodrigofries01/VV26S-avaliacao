@@ -1,0 +1,33 @@
+{
+  "name": "vv26s-avaliacao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:video": "cypress run --record false",
+    "cy:run:spec": "cypress run --spec",
+    "test:login-ok": "cypress run --spec cypress/e2e/saucedemo/loginOk.cy.js",
+    "test:login-nok": "cypress run --spec cypress/e2e/saucedemo/loginNOk.cy.js",
+    "test:add-cart": "cypress run --spec cypress/e2e/saucedemo/addToCart.cy.js",
+    "test:add-cart-error": "cypress run --spec cypress/e2e/saucedemo/addToCartError.cy.js",
+    "test:all": "cypress run --spec cypress/e2e/saucedemo/*.cy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigofries01/VV26S-avaliacao.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rodrigofries01/VV26S-avaliacao/issues"
+  },
+  "homepage": "https://github.com/rodrigofries01/VV26S-avaliacao#readme",
+  "devDependencies": {
+    "cypress": "^14.5.1"
+  }
+}

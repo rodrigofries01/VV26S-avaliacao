@@ -1,0 +1,8 @@
+{
+  "username": "standard_user",
+  "password": "secret_sauce",
+  "usernameError": "error_user_",
+  "firstName": "standard",
+  "lastName": "user",
+  "zipCode": "12345"
+}
