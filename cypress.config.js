@@ -16,6 +16,15 @@ module.exports = defineConfig({
     viewportWidth: 1280,
     viewportHeight: 720,
     defaultCommandTimeout: 10000,
-    baseUrl: 'https://www.saucedemo.com'
+
+    //mudar a Url da base a depender do site a ser testado
+    //baseUrl: 'https://www.saucedemo.com'
+    baseUrl: 'https://trello.com',
+    
+    chromeWebSecurity: false,
+    viewportWidth: 1280,
+    viewportHeight: 720,
+    defaultCommandTimeout: 10000,
+
   },
 });
