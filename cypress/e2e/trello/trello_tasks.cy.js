@@ -1,4 +1,5 @@
-const email = 'e-mailvalido';v// o login não pode ser feito via google
+const email = 'e-mailvalido';
+// o login não pode ser feito via google
 const senha = 'senhavalida';
 
 describe('Fluxo Trello: Login e criação de tarefa', () => {
@@ -9,6 +10,8 @@ describe('Fluxo Trello: Login e criação de tarefa', () => {
   it('Deve fazer login e criar uma nova tarefa no quadro', () => {
     // 1. Acessa o quadro diretamente
     cy.visit('https://trello.com/b/uGt0vshe/meu-quadro-de-teste');
+
+    // 
 
     // 2. Clica no botão de "Fazer Login"
     cy.get('a[href*="/login"]')

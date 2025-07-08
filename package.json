@@ -7,9 +7,15 @@
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "test": "cypress run",
+    "test:all": "cypress run",
     "test:headed": "cypress run --headed",
     "test:chrome": "cypress run --browser chrome",
-    "test:firefox": "cypress run --browser firefox"
+    "test:firefox": "cypress run --browser firefox",
+    "test:saucedemo": "cypress run --spec 'cypress/e2e/saucedemo/**/*.cy.js'",
+    "test:trello": "cypress run --spec 'cypress/e2e/trello/**/*.cy.js'",
+    "test:onefootball": "cypress run --spec 'cypress/e2e/onefootball/**/*.cy.js'",
+    "test:globoesporte": "cypress run --spec 'cypress/e2e/globoesporte/**/*.cy.js'",
+    "test:protractor": "cypress run --spec 'cypress/e2e/protactordemocalculator/**/*.cy.js'"
   },
   "keywords": [
     "cypress",
